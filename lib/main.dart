@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/examples/example2.dart';
+import 'package:flutter_animation/examples/example3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage>
       appBar: AppBar(
         title: const Text('Animation'),
       ),
-      body: const Example2(),
+      body: const Example3(),
     );
   }
 }
